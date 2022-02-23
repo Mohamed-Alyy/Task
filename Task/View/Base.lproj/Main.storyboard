@@ -122,8 +122,8 @@
                     </tabBar>
                     <connections>
                         <segue destination="KsF-vn-ii4" kind="relationship" relationship="viewControllers" id="wif-dE-gT4"/>
-                        <segue destination="JBE-GP-Obx" kind="relationship" relationship="viewControllers" id="Erj-fm-5VI"/>
-                        <segue destination="axD-HO-Kpb" kind="relationship" relationship="viewControllers" id="vrN-n1-WoJ"/>
+                        <segue destination="ZSZ-pp-KIJ" kind="relationship" relationship="viewControllers" id="aqY-4g-orW"/>
+                        <segue destination="JFD-Ib-OAD" kind="relationship" relationship="viewControllers" id="Kna-rc-9nD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpp-xS-0jA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -145,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T89-2h-lxp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="188" y="2358"/>
+            <point key="canvasLocation" x="106" y="1645"/>
         </scene>
         <!--Prodile-->
         <scene sceneID="5cM-b7-yvR">
@@ -162,47 +162,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJ5-oP-Ilb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1017" y="2330"/>
-        </scene>
-        <!--Home-->
-        <scene sceneID="4JO-mt-ni2">
-            <objects>
-                <navigationController id="JBE-GP-Obx" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="CJo-Aw-GPy"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Uaq-Xk-HbO">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="ZSZ-pp-KIJ" kind="relationship" relationship="rootViewController" id="fzd-ac-3uo"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6hx-1U-TR0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="20" y="1606"/>
-        </scene>
-        <!--Home-->
-        <scene sceneID="wI5-aD-lkJ">
-            <objects>
-                <navigationController id="axD-HO-Kpb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="eiZ-XH-Bkq"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uLU-Bm-fij">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <textAttributes key="largeTitleTextAttributes">
-                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="JFD-Ib-OAD" kind="relationship" relationship="rootViewController" id="a8d-81-fTt"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYP-fw-Zdd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="932" y="1571"/>
+            <point key="canvasLocation" x="935" y="1617"/>
         </scene>
     </scenes>
     <resources>
